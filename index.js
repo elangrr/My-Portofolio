@@ -34,7 +34,7 @@ const projectsArray = [
     featuredPopupImage: 'images/ss/Hypersign.png',
     linkToLiveVersion: 'https://github.com/hypersign-protocol/hid-node',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/hypersign',
-    class: 'project3',
+    class: 'project2',
     id: 'but3',
   },
   {
@@ -46,7 +46,7 @@ const projectsArray = [
     featuredPopupImage: 'images/ss/Mun.png',
     linkToLiveVersion: 'https://github.com/munblockchain/mun',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/mun',
-    class: 'project4',
+    class: 'project2',
     id: 'but4',
   },
   {
@@ -58,7 +58,7 @@ const projectsArray = [
     featuredPopupImage: 'images/Snapshoot-Portfolio.svg',
     linkToLiveVersion: 'https://www.icwchain.com/',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/icw',
-    class: 'project5',
+    class: 'project1',
     id: 'but5',
   },
   {
@@ -96,8 +96,8 @@ function creatProject(project) {
           <p>${project.description}</p>
       </div>
       <ul>
-          <li><a href="https://en.wikipedia.org/wiki/HTML" class="program-Link">${project.techs[0]}</a></li>
-          <li><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+          <li><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" class="program-Link">${project.techs[0]}</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/JavaScript"
                   class="program-Link">${project.techs[1]}</a></li>
           <li><a href="https://en.wikipedia.org/wiki/Ruby" class="program-Link">${project.techs[2]}</a></li>
       </ul>
@@ -112,9 +112,9 @@ function creatProject(project) {
     imgP1.id = 'p1image';
     project1.insertBefore(imgP1, project1.firstChild);
     const project1tech = document.querySelector('.project1 ul');
-    project1tech.innerHTML = `<li><a href="https://en.wikipedia.org/wiki/CSS" class="program-Link">${project.techs[0]}</a></li>
+    project1tech.innerHTML = `<li><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" class="program-Link">${project.techs[0]}</a></li>
     <li><a href="https://en.wikipedia.org/wiki/HTML" class="program-Link">${project.techs[1]}</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Bootstrap_(front-end_framework)"
+    <li><a href="https://en.wikipedia.org/wiki/JavaScript"
             class="program-Link">${project.techs[2]}</a></li>
     <li><a href="https://en.wikipedia.org/wiki/Ruby" class="program-Link">${project.techs[3]}</a></li>`;
   } else {
