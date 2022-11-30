@@ -156,7 +156,7 @@ function createPopUp(project) {
           <div class="popup-btn-group">
               <button><a href="${project.linkToLiveVersion}" class="live-Link"><span>See Official Document</span> <img
                           src="images/Icon-seelive.svg" alt=""></a></button>
-              <button><a href="${project.linkToSource}" class="source-Link"><span>See Indonode Guide</span> <img src="images/github-white.png"
+              <button><a href="${project.linkToSource}" class="source-Link"><span>Indonode Guide</span> <img src="images/github-white.png"
                           alt=""></a></button>
           </div>
       </div>
