@@ -2,62 +2,62 @@
 const worksSection = document.querySelector('#Works');
 const projectsArray = [
   {
-    name: 'EME Olympiad Webpage',
+    name: 'Point Network Mainnet Guide',
     description:
-      'This webpage is based on an annual event held in my University called EME Olympiad, which is basically an extravaganza of concerts, sport events, arts and so on.',
-    techs: ['css', 'html', 'Bootstrap', 'JavaScript'],
-    featuredImage: 'images/ss/emeOlympiad.png',
-    featuredPopupImage: 'images/ss/emeOlympiad.png',
-    linkToLiveVersion: 'https://zhadier.github.io/Eme-Olympiad/',
-    linkToSource: 'https://github.com/zhadier/Eme-Olympiad',
+      'A Simple guide how to Run Validator on Point Network Mainnet',
+    techs: ['Shell'],
+    featuredImage: 'images/ss/Point.png',
+    featuredPopupImage: 'images/ss/Point.png',
+    linkToLiveVersion: 'https://github.com/pointnetwork/point-chain/blob/mainnet/VALIDATORS.md',
+    linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/point',
     class: 'project1',
     id: 'but1',
   },
   {
-    name: 'Awesome Books',
+    name: 'Lambda Mainnet Guide',
     description:
-      'A simple webpage where you can store all the books you have read or want to read. Made using HTML, CSS and JavaScript.',
-    techs: ['html', 'css', 'JavasScript'],
+      'A Simple guide how to Run Validator on Lambda Mainnet',
+    techs: ['Shell'],
     featuredImage: 'images/ss/Awesome.png',
     featuredPopupImage: 'images/ss/Awesome.png',
-    linkToLiveVersion: 'https://zhadier.github.io/Awesome-Books-ES6/',
-    linkToSource: 'https://github.com/zhadier/Awesome-Books-ES6',
+    linkToLiveVersion: 'https://docs.lambda.im/validators/mainnet.html',
+    linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/lambda',
     class: 'project2',
     id: 'but2',
   },
   {
-    name: 'To Do List',
+    name: 'Hypersign Testnet Guide',
     description:
-      'A simple to do list webpage where you can log the daily tasks you have to do, mark them as checked, modify them, reorder them and remove them. Made using HTML, CSS and JavaScript.',
-    techs: ['html', 'css', 'javaScript'],
+      'A Simple guide how to Run Validator on Hypersign Jagrat Testnet ',
+    techs: ['Shell'],
     featuredImage: 'images/ss/to-do-List.png',
     featuredPopupImage: 'images/ss/to-do-List.png',
-    linkToLiveVersion: 'https://zhadier.github.io/To-Do-List',
-    linkToSource: 'https://github.com/zhadier/To-Do-List',
+    linkToLiveVersion: 'https://github.com/hypersign-protocol/hid-node',
+    linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/hypersign',
     class: 'project3',
     id: 'but3',
   },
   {
-    name: 'Dice Challenge',
+    name: 'Mun Testnet Guide',
     description:
-      'A simple dice game where you test your luck to decide the winner. Created using JavaScript, html and CSS',
-    techs: ['html', 'css', 'JavaScript'],
+      'A simple guide how to Run Validator on Mun Testnet',
+    techs: ['Shell'],
     featuredImage: 'images/ss/dice.png',
     featuredPopupImage: 'images/ss/dice.png',
-    linkToLiveVersion: 'https://zhadier.github.io/Dicee-Challenge',
-    linkToSource: 'https://github.com/zhadier/Dicee-Challenge',
+    linkToLiveVersion: 'https://github.com/munblockchain/mun',
+    linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/mun',
     class: 'project4',
     id: 'but4',
   },
   {
-    name: 'Profesional Art Printing Data',
+    name: 'ICW Chain',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry"s standard.',
-    techs: ['html', 'Bootstrap', 'Ruby'],
+      'A simple guide how to run ICW Mainnet Node Consensus',
+    techs: ['Shell' , 'Javascript'],
     featuredImage: 'images/proj-img.svg',
     featuredPopupImage: 'images/Snapshoot-Portfolio.svg',
-    linkToLiveVersion: 'https://zhadier.github.io/My-Portofolio/',
-    linkToSource: 'https://github.com/zhadier/My-Portofolio',
+    linkToLiveVersion: 'https://www.icwchain.com/',
+    linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/icw',
     class: 'project5',
     id: 'but5',
   },
@@ -155,9 +155,9 @@ function createPopUp(project) {
       <div class="popup-Main">
           <p class="popup-Text">${project.description}</p>
           <div class="popup-btn-group">
-              <button><a href="${project.linkToLiveVersion}" class="live-Link"><span>See Live</span> <img
+              <button><a href="${project.linkToLiveVersion}" class="live-Link"><span>See Official Document</span> <img
                           src="images/Icon-seelive.svg" alt=""></a></button>
-              <button><a href="${project.linkToSource}" class="source-Link"><span>See Source</span> <img src="images/github-white.png"
+              <button><a href="${project.linkToSource}" class="source-Link"><span>See Indonode Guide</span> <img src="images/github-white.png"
                           alt=""></a></button>
           </div>
       </div>
