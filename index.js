@@ -35,7 +35,7 @@ const projectsArray = [
     linkToLiveVersion: 'https://github.com/hypersign-protocol/hid-node',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/hypersign',
     class: 'project2',
-    id: 'but3',
+    id: 'but2',
   },
   {
     name: 'Mun Testnet Guide',
@@ -53,9 +53,9 @@ const projectsArray = [
     name: 'ICW Chain',
     description:
       'A simple guide how to run ICW Mainnet Node Consensus',
-    techs: ['Shell' , 'Javascript'],
-    featuredImage: 'images/proj-img.svg',
-    featuredPopupImage: 'images/Snapshoot-Portfolio.svg',
+    techs: ['Shell'],
+    featuredImage: 'images/ss/ICW.png',
+    featuredPopupImage: 'images/ss/ICW.png',
     linkToLiveVersion: 'https://www.icwchain.com/',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/icw',
     class: 'project2',
