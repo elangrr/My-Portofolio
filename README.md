@@ -13,7 +13,7 @@ The portofolio contains all my work experience and Projects. You can also leave 
 ## Live Demo
 Use the link below to access github page for my portofolio.
 
-- [Github_Page](https://zhadier.github.io/My-Portofolio/)
+- [Github_Page](https://my-portofolio-lac.vercel.app/)
 
 
 ## Built With
@@ -28,7 +28,7 @@ Use the link below to access github page for my portofolio.
 
 - Clone this repo locally using git in the command line and the following command
 
-  `git clone https://github.com/zhadier/My-Portofolio`
+  `git clone https://github.com/elangrr/My-Portofolio`
   
 - Alternatively, you can just download the complete zip file and extract the folder in your directory
 
