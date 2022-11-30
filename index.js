@@ -18,8 +18,8 @@ const projectsArray = [
     description:
       'A Simple guide how to Run Validator on Lambda Mainnet',
     techs: ['Shell'],
-    featuredImage: 'images/ss/Awesome.png',
-    featuredPopupImage: 'images/ss/Awesome.png',
+    featuredImage: 'images/ss/Lambda.png',
+    featuredPopupImage: 'images/ss/Lambda.png',
     linkToLiveVersion: 'https://docs.lambda.im/validators/mainnet.html',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/lambda',
     class: 'project2',
@@ -30,8 +30,8 @@ const projectsArray = [
     description:
       'A Simple guide how to Run Validator on Hypersign Jagrat Testnet ',
     techs: ['Shell'],
-    featuredImage: 'images/ss/to-do-List.png',
-    featuredPopupImage: 'images/ss/to-do-List.png',
+    featuredImage: 'images/ss/Hypersign.png',
+    featuredPopupImage: 'images/ss/Hypersign.png',
     linkToLiveVersion: 'https://github.com/hypersign-protocol/hid-node',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/hypersign',
     class: 'project3',
@@ -42,8 +42,8 @@ const projectsArray = [
     description:
       'A simple guide how to Run Validator on Mun Testnet',
     techs: ['Shell'],
-    featuredImage: 'images/ss/dice.png',
-    featuredPopupImage: 'images/ss/dice.png',
+    featuredImage: 'images/ss/Mun.png',
+    featuredPopupImage: 'images/ss/Mun.png',
     linkToLiveVersion: 'https://github.com/munblockchain/mun',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/mun',
     class: 'project4',
