@@ -1103,7 +1103,17 @@ footer hr.footer-social-network {
     background-image: url(images/p2d.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid;
   }
+
+  .project3 .project-Head {
+    display: none;
+  }
+
+  .project3 .program-Link {
+    display: none;
+  }
+
 
   .project4 {
     background-image: url(images/p3d.svg);
@@ -1139,6 +1149,10 @@ footer hr.footer-social-network {
   }
 
   .project2 .project-Button {
+    display: flex;
+  }
+
+  .project3 .project-Button {
     display: flex;
   }
 
