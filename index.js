@@ -58,7 +58,7 @@ const projectsArray = [
     featuredPopupImage: 'images/Snapshoot-Portfolio.svg',
     linkToLiveVersion: 'https://www.icwchain.com/',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/icw',
-    class: 'project1',
+    class: 'project2',
     id: 'but5',
   },
   {
@@ -115,8 +115,7 @@ function creatProject(project) {
     project1tech.innerHTML = `<li><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)" class="program-Link">${project.techs[0]}</a></li>
     <li><a href="https://en.wikipedia.org/wiki/HTML" class="program-Link">${project.techs[1]}</a></li>
     <li><a href="https://en.wikipedia.org/wiki/JavaScript"
-            class="program-Link">${project.techs[2]}</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Ruby" class="program-Link">${project.techs[3]}</a></li>`;
+            class="program-Link">${project.techs[2]}</a></li>`;
   } else {
     document
       .querySelector(`.${project.class}`)
