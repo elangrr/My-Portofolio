@@ -81,7 +81,7 @@ const projectsArray = [
     featuredImage: 'images/neutron.png',
     featuredPopupImage: 'images/neutron.png',
     linkToLiveVersion: 'https://github.com/neutron-org/testnets/tree/main/quark/',
-    linkToSource: ' ',
+    linkToSource: 'https://snollygoster.notion.site/Neutron-Node-7da2daf8ffd24ceb8cbfe0a592ebdc08',
     class: 'project7',
     id: 'but7',
   },
