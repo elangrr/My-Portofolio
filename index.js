@@ -34,8 +34,8 @@ const projectsArray = [
     featuredPopupImage: 'images/ss/Hypersign.png',
     linkToLiveVersion: 'https://github.com/hypersign-protocol/hid-node',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/hypersign',
-    class: 'project2',
-    id: 'but2',
+    class: 'project3',
+    id: 'but3',
   },
   {
     name: 'Mun Testnet Guide',
@@ -46,7 +46,7 @@ const projectsArray = [
     featuredPopupImage: 'images/ss/Mun.png',
     linkToLiveVersion: 'https://github.com/munblockchain/mun',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/mun',
-    class: 'project2',
+    class: 'project4',
     id: 'but4',
   },
   {
@@ -58,7 +58,7 @@ const projectsArray = [
     featuredPopupImage: 'images/ss/ICW.png',
     linkToLiveVersion: 'https://www.icwchain.com/',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/icw',
-    class: 'project2',
+    class: 'project5',
     id: 'but5',
   },
   {
