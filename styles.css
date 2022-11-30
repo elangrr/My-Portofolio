@@ -1119,24 +1119,60 @@ footer hr.footer-social-network {
     background-image: url(images/p3d.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid;
+  }
+
+  .project4 .project-Head {
+    display: none;
+  }
+
+  .project4 .program-Link {
+    display: none;
   }
 
   .project5 {
     background-image: url(images/p4d.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid;
+  }
+
+  .project5 .project-Head {
+    display: none;
+  }
+
+  .project5 .program-Link {
+    display: none;
   }
 
   .project6 {
     background-image: url(images/p2d.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid;
+  }
+
+  .project6 .project-Head {
+    display: none;
+  }
+
+  .project6 .program-Link {
+    display: none;
   }
 
   .project7 {
     background-image: url(images/p3d.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid;
+  }
+
+  .project7 .project-Head {
+    display: none;
+  }
+
+  .project7 .program-Link {
+    display: none;
   }
 
   .project-Button {
@@ -1155,6 +1191,23 @@ footer hr.footer-social-network {
   .project3 .project-Button {
     display: flex;
   }
+
+  .project4 .project-Button {
+    display: flex;
+  }
+
+  .project5 .project-Button {
+    display: flex;
+  }
+
+  .project6 .project-Button {
+    display: flex;
+  }
+
+  .project7 .project-Button {
+    display: flex;
+  }
+
 
   /* Popup Section */
   .container {
