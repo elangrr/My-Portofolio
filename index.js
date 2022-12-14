@@ -212,6 +212,16 @@ const PopUp7 = document.querySelector(`#${projectsArray[6].id}`);
 PopUp7.addEventListener('click', () => {
   createPopUp(projectsArray[6]);
 });
+const PopUp8 = document.querySelector(`#${projectsArray[7].id}`);
+PopUp7.addEventListener('click', () => {
+  createPopUp(projectsArray[7]);
+});
+const PopUp9 = document.querySelector(`#${projectsArray[8].id}`);
+PopUp7.addEventListener('click', () => {
+  createPopUp(projectsArray[8]);
+});
+
+
 
 // Mobile menu (Dynamic HTML)
 const openMenu = document.querySelector('.nav-Button');
