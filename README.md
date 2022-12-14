@@ -5,7 +5,8 @@
 
 > A portofolio webpage that displays all the projects I've been working on recently. 
 
-![screenshot](https://user-images.githubusercontent.com/90556221/144428476-5b00c84a-b5e9-498c-b3c2-8052414a8ccb.png)
+![screenshot](https://user-images.githubusercontent.com/34649601/204688355-9aef0532-7bfd-41cc-a766-7860e71815ad.png)
+
 
 The portofolio contains all my work experience and Projects. You can also leave your email incase you want to collaborate :)
 
@@ -13,7 +14,7 @@ The portofolio contains all my work experience and Projects. You can also leave 
 ## Live Demo
 Use the link below to access github page for my portofolio.
 
-- [Github_Page](https://my-portofolio-lac.vercel.app/)
+- [Github_Page](https://indonode.dev/)
 
 
 ## Built With
