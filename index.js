@@ -94,8 +94,8 @@ const projectsArray = [
     featuredPopupImage: 'images/neutron.png',
     linkToLiveVersion: 'https://docs-nolus-protocol.notion.site/Run-a-Full-Node-7a92545223e7483bb4a02cce30b53aa8',
     linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/nolus',
-    class: 'project7',
-    id: 'but7',
+    class: 'project8',
+    id: 'but8',
   },
 ];
 
