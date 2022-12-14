@@ -85,6 +85,18 @@ const projectsArray = [
     class: 'project7',
     id: 'but7',
   },
+  {
+    name: 'Nolus Testnet Guide',
+    description:
+      'A simple guide how to run Nolus Testnet',
+    techs: ['Shell'],
+    featuredImage: 'images/nolus.png',
+    featuredPopupImage: 'images/neutron.png',
+    linkToLiveVersion: 'https://docs-nolus-protocol.notion.site/Run-a-Full-Node-7a92545223e7483bb4a02cce30b53aa8',
+    linkToSource: 'https://github.com/elangrr/testnet_guide/tree/main/nolus',
+    class: 'project7',
+    id: 'but7',
+  },
 ];
 
 function creatProject(project) {
